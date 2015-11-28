@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==================================================== COLOR ==================================================== */
+
+a.more,
+header.banner ul.menu_top li a#active,
+header.banner ul.menu_top li a:hover,
+.bigteaser section{
+	background: #F76400;
+}
+
+
+
+.banner .menu_top li a#active,
+.columns-hot li,
+{
+background: #F76400;
+}
+
+footer a,
+h1, h2
+{
+color: #F76400;
+}
+
+.banner
+{
+	background: #000000 url('../img/Design02-header-orange.jpg') no-repeat center bottom;
+	border-top: 5px solid #F76400;
+}

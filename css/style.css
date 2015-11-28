@@ -1,0 +1,305 @@
+ul, h1
+{ 
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix
+{
+  zoom: 1;
+}
+
+.clearfix:after
+{
+  display: table;
+  content: "";
+  zoom: 1;
+  clear: both;
+}
+
+.clearfix:before
+{
+  display: table;
+  content: "";
+  zoom: 1;
+}
+
+
+img, a img
+{ 
+  border: none; 
+}
+
+body 
+{ 
+  margin: 0px auto; 
+  font-size: 0.75em; 
+  font-weight: normal; 
+  font-family: Arial; 
+  color: #4B4B4B;
+  background: #FFFFFF;
+}
+
+article 
+{
+  width:100%;
+}
+
+section
+{
+  width:75%;
+  float:left;
+}
+
+aside
+{
+  width:20%;
+  float:right;
+}
+
+a 
+{
+  color: #FFFFFF;
+  text-decoration: none;
+  outline: none;
+}
+
+aside a
+{ 
+  color:#09c;
+}
+
+p 
+{
+  text-align: left;
+  line-height: 1.6em;
+  margin-top: 20px;
+  padding: 20px 0px;
+}
+
+h1, h2
+{
+  font-size: 1.50em;
+  font-weight: normal;
+  font-family: 'Tauri',serif; 
+  text-transform: uppercase;
+}
+
+h3
+{
+  font-size: 1.0em;
+  font-weight: normal;
+  padding: 0px; 
+  margin: 0px; 
+  color: #737373; 
+  text-transform: none; 
+  line-height: 1.15em;
+  margin-top: 8px;
+}
+
+.smallteaser header img,
+.bigteaser section img
+{
+  float: left;
+  margin-right: 20px;
+}
+
+footer nav, .menu_top, main
+{
+  max-width: 960px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+.banner
+{
+  width: 100%;
+  height: 380px;  
+}
+
+.menu_top
+{
+  list-style-type: none;
+  font-size: 1.25em;
+  font-family: 'Tauri', serif;
+}
+
+.menu_top li
+{
+  float: left;
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.menu_top li a
+{
+  float: left;
+  display: block;
+  padding: 30px 15px 20px 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+
+main
+{
+  display: block;
+  margin-top: 40px;
+  padding: 0px 9px;
+}
+
+.smallteaser
+{
+  margin: -9px;
+  list-style-type: none;
+}
+
+.smallteaser section
+{
+  float: left; 
+  width: 248px;
+  background: #EFEFEF; 
+  padding: 30px;
+  margin: 9px;
+}
+
+.smallteaser p
+{
+  border-top: 1px #D1D1D1 solid;
+}
+
+.smallteaser section p a
+{
+  float: right;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+.smallteaser p a:hover
+{
+  background-color: #909090;
+}
+
+.smallteaser.middle-child
+{
+  margin: 0px 18px; 
+}
+
+.bigteaser
+{
+  margin-top: 18px;
+  list-style-type: none;
+}
+
+.bigteaser section
+{
+  float: left;
+  width: 40%;
+  min-width: 248px;
+  padding: 30px 5%;
+}
+
+.bigteaser section h1
+{
+  color: #313131;
+}
+
+.bigteaser p
+{
+  color: #FFFFFF;
+}
+
+.bigteaser section p a
+{
+  float: right;
+  padding: 5px 10px;
+  margin-top: 20px;
+  background-color: #2D2D2D;
+}
+
+.bigteaser p a:hover
+{
+  background-color: #424242;
+}
+
+footer
+{
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  padding: 40px 0px;
+  color: #757575;
+  background: #EFEFEF;
+}
+
+footer nav ul
+{
+  float: left;
+  list-style-type: none;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+footer ul li
+{
+  line-height: 1.6em;
+}
+
+footer .kontakt
+{
+  float: left;
+  margin-left: 30px;
+  margin-right: 20px;
+  line-height: 1.6em;
+}
+
+footer .branding
+{
+  margin: 0 auto;
+  line-height: 1.6em;
+  max-width:240px;
+  text-align:right;
+}
+
+footer a
+{
+  color: #009ECE;
+}
+
+footer a:hover
+{
+  color: #434343;
+}
+
+.smallteaser a,
+.banner .menu_top  li a:hover, 
+.banner .menu_top  li a#active,
+.bigteaser section
+{
+  background: #009ECE;
+}
+
+h1, h2
+{
+  color: #018DB8;
+}
+
+
+.banner 
+{
+  background: #000000 url('../img/Design02-header-blue.jpg') no-repeat center bottom;
+  border-top: 5px solid #009ECE;
+}
+.logo_wrapper
+{
+  margin: 0px auto;
+  margin-top: 100px;
+  width: 430px;
+}
+
+.logo_wrapper a
+{
+  margin-left: -150px;
+}
+

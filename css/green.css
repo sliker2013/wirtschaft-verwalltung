@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==================================================== COLOR ==================================================== */
+
+a.more,
+header.banner ul.menu_top li a#active,
+header.banner ul.menu_top li a:hover,
+.bigteaser section{
+	background:  #7CA403;
+}
+
+
+
+.banner .menu_top li a#active,
+.columns-hot li,
+{
+background:  #7CA403;
+}
+
+footer a,
+h1, h2
+{
+color:  #7CA403;
+}
+
+.banner
+{
+	background: #000000 url('../img/Design02-header-green.jpg') no-repeat center bottom;
+	border-top: 5px solid  #7CA403;
+}

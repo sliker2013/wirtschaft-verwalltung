@@ -1,0 +1,22 @@
+a.more,
+header.banner ul.menu_top li a#active,
+header.banner ul.menu_top li a:hover,
+.bigteaser section {
+  background:  #ef00b4;
+}
+
+
+
+.banner .menu_top li a#active,
+.columns-hot li {
+  background:  #ef00b4;
+}
+
+footer a, h1, h2 {
+  color:  #ef00b4;
+}
+
+.banner {
+  background: #000000 url('../img/Design02-header-pink.jpg') no-repeat center bottom;
+  border-top: 5px solid  #ef00b4;
+}

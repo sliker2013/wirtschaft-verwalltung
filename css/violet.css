@@ -1,0 +1,22 @@
+a.more,
+header.banner ul.menu_top li a#active,
+header.banner ul.menu_top li a:hover,
+.bigteaser section {
+  background:  #9531BE;
+}
+
+
+
+.banner .menu_top li a#active,
+.columns-hot li {
+  background:  #9531BE;
+}
+
+h1, h2, footer a {
+  color:  #9531BE;
+}
+
+.banner {
+  background: #000000 url('../img/Design02-header-violet.jpg') no-repeat center bottom;
+  border-top: 5px solid  #9531BE;
+}
