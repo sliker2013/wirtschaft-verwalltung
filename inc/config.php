@@ -1,8 +1,8 @@
 <?php
-    define('DB_HOST', 'bund-des-schatten.de');
-    define('DB_USER', 'ni579393_1sql1');
-    define('DB_PASSWORD', 'masterpw');
-    define('DB_DATABASE', 'ni579393_1sql1');
+    define('DB_HOST', 'Addresse');
+    define('DB_USER', 'USER');
+    define('DB_PASSWORD', 'password');
+    define('DB_DATABASE', 'datenbank');
 	
 	
 $connection = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD) OR DIE ("Keine Verbindung zu der Datenbank moeglich.");
